@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name       UA | FT.com
+// @name       UA |Be Google
 // @namespace  http://ft.com/
 // @version    0.1
 // @description  enter something useful
