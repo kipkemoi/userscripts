@@ -1,13 +1,14 @@
 // ==UserScript==
 // @name         NYTimes Privacy Blocker
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  Prevent sites detecting if you're in incognito by calling the success callback of webkitRequestFileSystem even if it's failing.
 // @description  originally from https://www.reddit.com/r/Piracy/comments/b8z1li/how_to_get_past_the_new_york_times_paywall/elfiyvt/
 // @author       You
 // @run-at       document-start
 // @match        *://*.nytimes.com/*
 // @grant        none
+// @downloadURL  https://github.com/kipkemoi/userscripts/raw/master/nytimesPrivacyBlocker.user.js
 // ==/UserScript==
 
 (function() {
